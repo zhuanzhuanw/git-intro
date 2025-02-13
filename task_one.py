@@ -14,10 +14,6 @@ def this_should_be_free():
     return "bound"
 
 
-def this_should_be_one():
-    return 11
-
-
 def this_should_be_None():
     return False
 

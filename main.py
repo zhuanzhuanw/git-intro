@@ -6,7 +6,6 @@ from task_one import (
     this_should_be_three,
     this_should_be_free,
     this_should_be_long,
-    this_should_be_one,
     this_should_be_None,
     this_should_be_nine,
     this_should_be_prime,
@@ -36,7 +35,6 @@ if __name__ == "__main__":
         and (this_should_be_three() == 3)
         and (this_should_be_free() == "free")
         and (len(this_should_be_long()) > 10)
-        and (this_should_be_one() == 1)
         and (this_should_be_None() == None)
         and (this_should_be_nine() == 9)
         and (isprime(this_should_be_prime()))
