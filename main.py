@@ -23,7 +23,7 @@ def isprime(num):
 
 if __name__ == "__main__":
     # init
-    proceed = True
+    proceed = False
     for i in range(1, 6):
         print("." * i)
         sleep(0.1)
