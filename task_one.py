@@ -1,5 +1,5 @@
 def this_should_be_true():
-    return 1 == 3
+    return 1 == 1
 
 
 def this_should_be_blue():
