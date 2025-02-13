@@ -23,7 +23,7 @@ def isprime(num):
 
 if __name__ == "__main__":
     # init
-    proceed = False
+    proceed = True
     for i in range(1, 6):
         print("." * i)
         sleep(0.1)
@@ -48,13 +48,12 @@ if __name__ == "__main__":
     if proceed:
         for your in Path("contributors").glob("*"):
             try:
-                print(
-                    f'{your.name} says: "{
-                        statements[your.name]
-                        if (dementi[your.name] == "")
-                        else dementi[your.name]
-                    }"\n'
+                message = (
+                    statements[your.name]
+                    if (dementi[your.name] == "")
+                    else dementi[your.name]
                 )
+                print(f"{your.name} says: '{message}'\n")
             except KeyError:
                 print(f"{your.name} has nothing to say..\n")
             sleep(2)

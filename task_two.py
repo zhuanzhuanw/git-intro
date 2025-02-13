@@ -11,7 +11,7 @@ statements = {
 
 
 dementi = {
-    "dominik": "no way!",
+    "dominik": "",
     "b": "",
     "c": "",
     "d": "",
