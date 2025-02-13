@@ -3,7 +3,7 @@ def this_should_be_true():
 
 
 def this_should_be_blue():
-    return "red"
+    return "blue"
 
 
 def this_should_be_three():
