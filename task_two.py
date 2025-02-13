@@ -3,10 +3,10 @@ statements = {
     "b": "Fake news",
     "c": "I am the chosen one",
     "d": "I could stand in the middle of Fifth Avenue and shoot somebody, and I wouldn't lose any voters",
-    "e": "Lock her up",
-    "f": "Drain the swamp",
-    "g": "Build the wall",
-    "h": "America First",
+    "carlo": "Lock her up",
+    "faisal": "Drain the swamp",
+    "tido": "Build the wall",
+    "f": "America First",
 }
 
 
@@ -15,8 +15,8 @@ dementi = {
     "b": "",
     "c": "",
     "d": "",
-    "e": "",
+    "carlo": "",
+    "faisal": "",
+    "tido": "",
     "f": "",
-    "g": "",
-    "h": "",
 }
